@@ -1,0 +1,103 @@
+@font-face {
+  font-family: HeriantoLim;
+  src: url(../font/HeriantoLim.ttf) format('truetype'),
+       url(../font/HeriantoLim.woff) format('woff');
+}
+
+body {
+  background-attachment: fixed;
+  background-color: #674970;
+  background-image: url(../img/sky-blue-canvas-64x64.png);
+  background-position: top left;
+  background-repeat: repeat;
+}
+
+.no-js .no-js-hide {
+  display: none;
+}
+
+.container {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.row {
+  margin: 0;
+}
+
+.site-logo {
+  font-family: HeriantoLim;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  word-spacing: normal;
+}
+
+.site-logo > span > span {
+  color: #9791ab;
+}
+
+.banner {
+  background-color: #2e2256;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.banner a {
+  color: white;
+}
+
+.banner a:hover {
+  color: #cbc8d5;
+  text-decoration: none;
+}
+
+.banner .site-logo {
+  font-size: 2rem;
+  padding: 0;
+}
+
+.banner .site-link {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.banner .site-link svg {
+  fill: white;
+  height: 2rem;
+  width: 2rem;
+}
+
+.banner .site-link svg:hover {
+  fill: #cbc8d5;
+}
+
+.article {
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+#page-footer .row {
+  background-color: #ebe9ee;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+#page-footer button > svg {
+  fill: #2e2256;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+p .emoji {
+  height: 1rem;
+  width: 1rem;
+}
+
+.emoji-heart {
+  fill: red;
+}

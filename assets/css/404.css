@@ -1,0 +1,317 @@
+@font-face {
+  font-family: HeriantoLim;
+  src: url(../font/HeriantoLim.ttf) format('truetype'),
+       url(../font/HeriantoLim.woff) format('woff');
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  overflow-y: scroll;
+}
+
+body, div, span, ul, li, h1, h2, p, a {
+  border: 0;
+  box-sizing: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+div, span, ul, li, h1, h2, p, a {
+  color: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+}
+
+body {
+  background-color: #2e2256;
+  font-style: normal;
+  font-weight: normal;
+  min-height: 280px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#page-header {
+  color: #fff;
+  font-family: HeriantoLim;
+  font-size: 2.4rem;
+  left: 0;
+  margin-top: -3.3em;
+  min-width: 280px;
+  position: absolute;
+  top: 42%;
+  width: 100%;
+}
+
+#page-header span {
+  color: #9791ab;
+}
+
+#page-main {
+  left: 0;
+  min-width: 280px;
+  position: absolute;
+  top: 42%;
+  width: 100%;
+}
+
+#primary {
+  background-color: #fff;
+}
+
+#content {
+  border-left: 1em double #2e2256;
+  border-right: 1em double #2e2256;
+  color: #2e2256;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 80%;
+}
+
+#content h2 {
+  font-weight: bold;
+  margin-bottom: .3em;
+}
+
+#navigation {
+  margin-top: 0.6em;
+}
+
+#navigation li {
+  display: inline-block;
+  list-style: none;
+}
+
+#navigation li > a {
+  display: block;
+  padding: 0.6em;
+}
+
+#navigation svg {
+  fill: white;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+#navigation svg:hover {
+  fill: #cbc8d5;
+}
+
+@media all and (min-width: 38em) and (min-height: 19em) {
+  #content {
+    font-size: 1.4rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 2.8rem;
+  }
+  #navigation svg {
+    height: 2.8rem;
+    width: 2.8rem;
+  }
+}
+
+@media all and (min-width: 43em) and (min-height: 21.5em) {
+  #content {
+    font-size: 1.5rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 3.0rem;
+  }
+  #navigation svg {
+    height: 3.0rem;
+    width: 3.0rem;
+  }
+}
+
+@media all and (min-width: 48em) and (min-height: 24em) {
+  #content {
+    font-size: 1.6rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 3.2rem;
+  }
+  #navigation svg {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+}
+
+@media all and (min-width: 53em) and (min-height: 26.5em) {
+  #content {
+    font-size: 1.7rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 3.4rem;
+  }
+  #navigation svg {
+    height: 3.4rem;
+    width: 3.4rem;
+  }
+}
+
+@media all and (min-width: 58em) and (min-height: 29em) {
+  #content {
+    font-size: 1.8rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 3.6rem;
+  }
+  #navigation svg {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+}
+
+@media all and (min-width: 63em) and (min-height: 31.5em) {
+  #content {
+    font-size: 1.9rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 3.8rem;
+  }
+  #navigation svg {
+    height: 3.8rem;
+    width: 3.8rem;
+  }
+}
+
+@media all and (min-width: 68em) and (min-height: 34em) {
+  #content {
+    font-size: 2.0rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 4.0rem;
+  }
+  #navigation svg {
+    height: 4.0rem;
+    width: 4.0rem;
+  }
+}
+
+@media all and (min-width: 73em) and (min-height: 36.5em) {
+  #content {
+    font-size: 2.1rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 4.2rem;
+  }
+  #navigation svg {
+    height: 4.2rem;
+    width: 4.2rem;
+  }
+}
+
+@media all and (min-width: 78em) and (min-height: 39em) {
+  #content {
+    font-size: 2.2rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 4.4rem;
+  }
+  #navigation svg {
+    height: 4.4rem;
+    width: 4.4rem;
+  }
+}
+
+@media all and (min-width: 83em) and (min-height: 41.5em) {
+  #content {
+    font-size: 2.3rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 4.6rem;
+  }
+  #navigation svg {
+    height: 4.6rem;
+    width: 4.6rem;
+  }
+}
+
+@media all and (min-width: 88em) and (min-height: 44em) {
+  #content {
+    font-size: 2.4rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 4.8rem;
+  }
+  #navigation svg {
+    height: 4.8rem;
+    width: 4.8rem;
+  }
+}
+
+@media all and (min-width: 93em) and (min-height: 46.5em) {
+  #content {
+    font-size: 2.5rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 5.0rem;
+  }
+  #navigation svg {
+    height: 5.0rem;
+    width: 5.0rem;
+  }
+}
+
+@media all and (min-width: 98em) and (min-height: 49em) {
+  #content {
+    font-size: 2.6rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 5.2rem;
+  }
+  #navigation svg {
+    height: 5.2rem;
+    width: 5.2rem;
+  }
+}
+
+@media all and (min-width: 103em) and (min-height: 51.5em) {
+  #content {
+    font-size: 2.7rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 5.4rem;
+  }
+  #navigation svg {
+    height: 5.4rem;
+    width: 5.4rem;
+  }
+}
+
+@media all and (min-width: 108em) and (min-height: 54em) {
+  #content {
+    font-size: 2.8rem;
+  }
+  #page-header,
+  #navigation {
+    font-size: 5.6rem;
+  }
+  #navigation svg {
+    height: 5.6rem;
+    width: 5.6rem;
+  }
+}
